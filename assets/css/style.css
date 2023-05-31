@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+/*sección contactos*/
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 20%;
+}
+
+.contactos img {
+    border-radius: 50%;
+}
+
+.nombre {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #1B1F21;
+}
+
+.mensaje {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #1B1F21;
+}
+
+.foto-perfil {
+    width: 45px;
+    height: 45px;
+}
+
+/*maria*/
+
+.maria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+.perfil-maria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    gap: 10px;
+}
+
+.perfil-maria img {
+    width: 30px;
+    height: 30px;
+}
+
+.nombre-maria {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #1B1F21;
+}
+
+.estado-maria {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color: #BEC1BB;
+}
+
+.iconos-maria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 30px;
+    gap: 10px;
+    color: #BEC1BB;
+}
+
+/*nuevo chat*/
+
+.nuevo-chat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 114px;
+    border-top: 2px solid #BEC1BB;
+}
+
+.botón {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #FFF;
+    background-color: #A491D2;
+    height: 49px;
+    padding: 15px 40px;
+}
+
+.botón:hover {
+    background-color: #CDC3E6;
+}
+
+/*usuarios*/
+
+.usuario {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 2px solid #BEC1BB;
+    height: 74px;
+    padding-left: 30px;
+    gap: 10px;
+}
+
+/*sección main*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 80%;
+    background-color: #E8EBE4;
+    gap: 15px;
+}
+
+main img {
+    width: 250px;
+}
+
+main h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    color: #1B1F21;
+}
+
+main p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    color: #1B1F21;
+}
+
